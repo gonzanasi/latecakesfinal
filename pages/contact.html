@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/fc8ff974d6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!------------NAVBAR------------>
+<div class="navbar-container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <img class="late-logo" src="../assets/img/late-logo.png" alt="">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse nav-col" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            <a class="nav-link" href="./products.html">Productos</a>
+            <a class="nav-link" href="./aboutus.html">Nosotros</a>
+            <a class="nav-link" href="./promotions.html">Promociones</a>
+            <a class="nav-link" href="#">Contacto</a>
+          </div>
+        </div>
+    </nav>
+</div>
+<!---------------------------------->
+<!--HEADER-->
+    <header class="contact-banner">
+            <img class="contact-banner__img" src="../assets/img/contact-banner.png" alt="">
+    </header>
+
+<!---------------------------------->
+<main>
+    <section class="contact-container">
+        <div class="contact-info">
+            <p class="contact-text">Si deseas obtener más información sobre nuestros productos, o tenés alguna duda al respecto, no dudes en consultarnos a través de nuestros métodos de contacto, o rellenando el formulario.</p>
+        </div>
+        <div class="d-flex">
+            <img class="contact-logo" src="../assets/img/contact-vec.png" alt="contacto">
+        </div>
+    </section>
+
+    <section class="contact-info">
+        <div class="contact-wrapper">
+           <div class="wpp-container d-flex text-center"> 
+              <i class="fa-brands fa-whatsapp-square fa-logo co-logo"></i>
+                <div class="wpp-info">
+                  <p class="contact-data">TELÉFONO</p>
+                  <ul class="list-info">
+                    <li>Whatsapp: +54 9 11.9999.9999</li>
+                    <li>Teléfono: 4999.9999</li>
+                  </ul>
+                </div>
+          </div>
+
+          <div class="dir-container d-flex text-center">
+            <i class="fa-solid fa-map map-logo co-logo"></i>
+            <div class="add-info">
+                <p class="contact-data">DIRECCIÓN</p>
+                <ul class="list-info">
+                    <li>Belgrano 1718, CABA </li>
+                    <li>Martes a Domingo</li>
+                    <li>8:00 a 20:00</li>
+                </ul>
+            </div>
+          </div>
+
+          <div class="mail-container d-flex text-center">
+            <i class="fa-solid fa-envelope mail-logo co-logo"></i>
+            <div class="email-info">
+                <p class="contact-data">MAIL</p>
+                <ul class="list-info">
+                    <li>hola@latecakes.com</li>
+                    <li>info@latecakes.com</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form"action="#" target="" method="get" name="formDatosPersonales">
+
+            <p class="contact-title">CONTACTANOS</p>
+
+            <label for="nombre"></label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingresá tu nombre"/>
+        
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="Ingresá tu email" required />
+        
+            <label for="asunto"></label>
+            <input type ="text" name="asunto" id="asunto" placeholder="Motivo de consulta"/>
+        
+            <label for="mensaje"></label>
+            <textarea name="mensaje" for="mensaje" placeholder="Ingresá tu consulta" maxlength="200"></textarea>
+            
+            <input class="send-btn" type="submit" name="enviar" value="Enviar"/>
+        </form>
+
+    </section>
+
+</main>
+
+
+
+<footer>
+  <!--MOBILE FOOTER-->    
+          <div class="mob-footer">
+            <div class="mob-footer-grid">
+              <div class="g-home"><i class="fa-solid fa-house"></i><a href="../index.html">Home</a></div>
+              <div class="g-prod"><i class="fa-solid fa-folder-open"></i><a href="./products.html">Productos</a></div>
+              <div class="g-promo"><i class="fa-solid fa-tags"></i></i><a href="./promotions.html">Promociones</a></div>
+              <div class="g-us"><i class="fa-solid fa-user"></i><a href="./aboutus.html">Nosotros</a></div>
+              <div class="g-con"><i class="fa-solid fa-square-pen"></i><a href="#">Contacto</a></div>
+            </div>
+
+            <hr class="footer-hr">
+  
+            <div class="mob-media text-center">
+              <i class="fa-brands fa-facebook fbicon"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <p class="text-center mob-rig">© 2022 Late Cakes. Todos los derechos reservados.</p>
+          </div>
+  <!---------------------------------->
+  <!--DESKTOP FOOTER-->
+        <div class="dk-footer">
+          <div>
+            <img class="footer-logo" src="../assets/img/late-logo.png" alt="">
+          </div>
+
+          <div>
+            <ul class="footer-menu">
+              <li><a href="../index.html">HOME</li></a>
+              <li><a href="./pages/products.html">PRODUCTOS</a></li>
+              <li><a href="./pages/promotions.html">PROMOCION</a></li>
+              <li><a href="./pages/aboutus.html">NOSOTROS</a></li>
+              <li><a href="#">CONTACTO</a></li>
+            </ul>
+          </div>
+          
+          <div class="contact-icons">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fbicon"></i></a>
+            <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-whatsapp-square"></i></a>
+          </div>
+
+            <div class="rights">
+                <p>© 2022 Late Cakes. Todos los derechos reservados.</p>
+            </div>          
+        </div>
+  <!---------------------------------->
+        </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
